@@ -50,7 +50,7 @@ export default function Dashboard() {
             to={module.path}
             className="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition"
           >
-            <div className="text-4xl text-blue-600 mb-4">{module.icon}</div>
+            <div className="text-4xl text-green-600 mb-4">{module.icon}</div>
 
             <h3 className="text-xl font-bold mb-2">{module.title}</h3>
 

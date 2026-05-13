@@ -41,7 +41,7 @@ export default function MainLayout() {
 
   return (
     <div className="min-h-screen bg-gray-100 pb-20">
-      <header className="bg-blue-700 text-white p-4 shadow-lg sticky top-0 z-50">
+      <header className="bg-green-700 text-white p-4 shadow-lg sticky top-0 z-50">
         <div className="flex justify-between items-center">
           <div>
             <h1 className="text-xl font-bold">Control Interno</h1>
@@ -66,7 +66,7 @@ export default function MainLayout() {
               key={item.path}
               to={item.path}
               className={`flex flex-col items-center text-sm ${
-                active ? "text-blue-600 font-bold" : "text-gray-500"
+                active ? "text-green-600 font-bold" : "text-gray-500"
               }`}
             >
               <div className="text-xl">{item.icon}</div>
